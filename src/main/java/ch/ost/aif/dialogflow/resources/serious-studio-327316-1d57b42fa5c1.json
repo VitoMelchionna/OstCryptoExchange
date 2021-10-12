@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "serious-studio-327316",
+  "private_key_id": "1d57b42fa5c1e44c0d8292454c3edb3c30e2505d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuPWQqR+Tfj2BY\n1Cw8o9/DzsTxOWI2RWxKLSsMSQQkTaqGy/dpBNMP9ILetXH86yzwH/PIzsgm1ivu\n9eSWgcuWYyw4knNrAOasqXe1CzO7HTyb2P5cHY3Y7IJ9Qo+7uL+cQs/k7nD8Aanb\nVuijca5LKhpen/sbLqRP/uIPnWJvCDnJzEfYOWqR2ALDB1J9STLA4JDutMo7YpyY\nF7LRmj3g2WdRylK/n0xYmjFrjLRCbg6wpUQbyQm2LHewrjrYi9JtWLtJo1Zz4w0d\nuXH88yUHrfp2HeDfjD12AWD4qljXDfXQo1Vq+9UAnqehD3U7JknB0IUIV+SAZ5wA\njEZKKxY1AgMBAAECggEABKUlV6KNXaURtqcyu2EhCjQnzZ3ahO41NLBfPpdvEVVd\nZPTowSIm9adummewRMOznH6K6MET1pk3bZ+c5aL13aoCLUtA4XWSMMCJ151CAUyG\nZ588KhItob6tvI964SXL50C5ZcsyND21HLWvQ7WNpc+sXqEZjYAg/Z2iwt4kGCf5\ndUcneUzXzmj9F/VZmqKh8dFZpN0DKj6YJBgGL3gfBGHcXGWzOltsZCotlm7/jL2K\n5P4KuXrq1M3tnA9O47/2HV+Y2aJdFa88sVzLBHLBOYbjO5l9aUytU9zKZJDw47gy\nVmUfxhRmfC74s1SA8FxAJF+RxtCmFXhV8aal0AmKNwKBgQDw5g1U4TKqGKz4G+DV\nPDxrD5WLaRO50Oe+kzVeJ9sCjQ9Q268CmyYGcFXxZ7qGxva+mj7Kx2udE3TzPcKX\nEelGzmmcsVWQASN/ej+6J9dCw7s025AjvvifK/QdaGb426E5lZGMBheOX8wqXAbg\nEU+K9IldH2e27txZTnhH5ykIjwKBgQC5KZixshb50wqJkvA+AdblkOrJOI9B5y6L\nq4ed0+zTqWzv0JNeyVB0V5bmnpwjNxM+CR/28gC6NiE4y8Y15k5EBQ3Ox4BwpumA\nUJgp477qA6g6F2IMhlLo6ZkVKUHqi342RVsrgpxAGH0uXyhvuOpIBuEa6ST9axfv\nZjbx2zou+wKBgQDlZp3ha4Z8tnzY1Gt5hCAg77lABfMz6v0U3Uhf/mIv/rZMELeL\nKsW+MfGVrmrQ9912ypnrLpaLAUFIdVK929+ifuPRxImvVXZBaeAP3Oq/eHbosgGE\nGNLXeNrBum78ouHYXVc52X9LJGzfFb2yWKm/sHiyxjpU2Qfav8AI8NeBfwKBgH0m\naFZykKT6x7yE3GyMwbsYYBjxaaKZpxQwM9GxU/kcIs1UpMcEOqToLs5hlhcXOqJL\neJdoqqUxwPKqiKYVrAC9ib+hiGab6mcYEkD99iQlpKbe9x6QC6nxec6bvDnTXtM/\nvYeDGCkaZEHbf3FEAtX8EFooCyBeKiddZvXBv2nRAoGBAMZl+VbW6FORM0rExH0W\nUlFDeb8OLs5dujd6rh9fBWiXNbFJR5RwJaBtI1u8R17NsZoDj3jEG3AdsjbPQlii\n0pP9VSzUnQxfjMitjE2dM5r5PQwIf3AyxRAkvA8V+qIfOor8kAu1FwLna18HV1Ya\nWMYxqfy7FU5dAe82tpHj87Pg\n-----END PRIVATE KEY-----\n",
+  "client_email": "cryptoexchangeproject@serious-studio-327316.iam.gserviceaccount.com",
+  "client_id": "113912376516873473843",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cryptoexchangeproject%40serious-studio-327316.iam.gserviceaccount.com"
+}
