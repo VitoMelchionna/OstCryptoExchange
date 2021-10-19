@@ -1,7 +1,10 @@
 package ch.ost.aif.dialogflow.dialogflow;
 
 import java.io.IOException;
+import java.util.Map;
 
+import ch.ost.aif.dialogflow.coingecko.CoinGeckoApi;
+import ch.ost.aif.dialogflow.main.ApiIntegrator;
 import com.google.api.gax.rpc.ApiException;
 import com.google.cloud.dialogflow.v2.DetectIntentResponse;
 import com.google.cloud.dialogflow.v2.QueryInput;
@@ -9,7 +12,6 @@ import com.google.cloud.dialogflow.v2.QueryResult;
 import com.google.cloud.dialogflow.v2.SessionName;
 import com.google.cloud.dialogflow.v2.SessionsClient;
 import com.google.cloud.dialogflow.v2.TextInput;
-//import com.google.protobuf.Struct; // TODO: remove this import in case that it won't be needed
 
 public class CustomRequestBuilder {
 
@@ -55,21 +57,24 @@ public class CustomRequestBuilder {
 				break;
 			case "retrieveCryptos":
 				break;
+			case "accountTradeCrypto":
+				if (queryResult.getAllRequiredParamsPresent()) {// only entered if all informations are available,
+
+					String coinName = ApiIntegrator.getCoinNameFromQuery(queryResult);
+					CoinGeckoApi coinGeckoAPI = new CoinGeckoApi();
+					Map result = coinGeckoAPI.getCoinPrice(ApiIntegrator.convertCoinNameToApiParameter(coinName), ApiIntegrator.currency);
+
+					System.out.println(ApiIntegrator.castResultIntoConsoleOutput(result));
+				}
+				break;
+			case "account.trade.crypto - context: trading - date - yes":
+				System.out.println(java.util.UUID.randomUUID());
+				break;
 			case "Default Fallback Intent":
 				break;
-			default: // mirrors the intent string and the payload as default (if the intent isn't
-						// treated specially)
+			default:
 				System.out.println(intent);
-				System.out.println(queryResult.getFulfillmentMessagesOrBuilderList());
 			}
-
-			// TODO: remove this code example in case that it won't be needed
-			/*if (queryResult.getFulfillmentMessagesCount() > 1) {// only entered if all informations are available,
-																	// thus the payload sent
-					Struct struct = queryResult.getFulfillmentMessagesOrBuilder(1).getPayload();// get the custom
-																								// payload
-
-			}*/
 		}
 	}
 }
